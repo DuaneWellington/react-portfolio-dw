@@ -1,7 +1,8 @@
 // PATH: 'react-portfolio-dw/src/components/Header.jsx'
 
+import React from "react";
 import { Link } from "react-router-dom";
-import "./Header.css"
+import './Header.css';
 
 function Header() {
 

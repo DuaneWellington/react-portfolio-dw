@@ -2,11 +2,13 @@
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  align-items: center;
   border-bottom: 0.2rem solid black;
   padding: 0.5rem;
   width: 34rem;
   margin: auto;
 }
+
 .hello {
   display: flex;
   justify-content: center;
@@ -17,17 +19,24 @@
   border-top-left-radius: 5px;
   margin-bottom: 0;
   width: 24rem;
+  margin-left: auto;
+  margin-right: auto;
+
 }
 
 .nameIs {
   display: flex;
   justify-content: center;
   align-items: center;
+  border: 3px solid red;
   margin-top: 0;
   margin-bottom: 0;
   padding-bottom: 6px;
   background-color: red;
   width: 24rem;
+  margin-left: auto;
+  margin-right: auto;
+
 }
 
 .duane {
@@ -36,11 +45,13 @@
   align-items: center;
   font-family: "Caveat", cursive;
   background-color: whitesmoke;
-  margin-top: 0;
-  margin-bottom: 0;
+  margin: 0;
   padding-top: 50px;
   padding-bottom: 25px;
   width: 24rem;
+  margin-left: auto;
+  margin-right: auto;
+
 }
 .text-container {
   display: flex;
@@ -49,11 +60,16 @@
   background-color: whitesmoke;
   padding: 10px;
   color: blue;
-  width: 24rem;
+  width: 23.1rem;
+  margin-left: auto;
+  margin-right: auto;
+
 }
 .text-container .angled-text {
   transform: rotate(-3deg);
   width: 24rem;
+  margin-right: 0;
+  border: 1px solid whitesmoke;
 }
 
 .bar {
@@ -61,9 +77,14 @@
   justify-content: center;
   align-items: center;
   margin-top: 0;
+  border: 3px solid red;
   background-color: red;
   color: red;
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
   width: 24rem;
+  margin-left: auto;
+  margin-right: auto;
+
 }
+

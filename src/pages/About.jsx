@@ -3,6 +3,7 @@
 import { useState, useEffect } from "react";
 import Header from "../components/Header";
 
+
 function About() {
   // create state to hold about data
   const [about, setAbout] = useState(null);
@@ -36,12 +37,12 @@ function About() {
       <div className="email">
         <h3>{about.email}</h3>
       </div>
-      <section className="bio">
+      <div className="bio">
         <p>{about.bio1}</p>
         <p>{about.bio2}</p>
         <p>{about.bio3}</p>
         <p>{about.bio4}</p>
-      </section>
+      </div>
     </div>
   );
 
