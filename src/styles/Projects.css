@@ -49,5 +49,5 @@
 
 .gitBtn,
 .liveBtn {
-
+    display: flex;
 }

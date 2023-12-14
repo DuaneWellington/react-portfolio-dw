@@ -2,6 +2,7 @@
 
 import { FaGithub, FaServer } from "react-icons/fa";
 import { useState, useEffect } from "react";
+import Footer from "../components/Footer";
 
 function Projects(props) {
   // create state to hold projects
