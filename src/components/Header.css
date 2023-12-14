@@ -7,6 +7,16 @@
   padding: 0.5rem;
   width: 34rem;
   margin: auto;
+  font-size: x-large;
+}
+
+.home:hover,
+.about:hover,
+.skills:hover,
+.projects:hover {
+    font-size: xx-large;
+    font-weight: bold;
+    color:darkblue
 }
 
 .hello {

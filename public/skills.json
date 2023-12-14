@@ -1,38 +1,58 @@
 [
   {
     "id": 1,
-    "name": "React",
-    "description": "Javascript library for building user interfaces.",
-    "image": "/path/to/react-logo.png"
+    "name": "JavaScript",
+    "description": "Scripting language for web development and programming",
+    "description2": "",
+    "image": "https://imgur.com/wYJTy7J.png"
   },
   {
     "id": 2,
     "name": "HTML5",
     "description": "Programming code for website development",
-    "image": "/path/to/html5-logo.png"
+    "description2": "",
+    "image": "https://imgur.com/zsWBZ8O.png"
   },
   {
     "id": 3,
     "name": "CSS3",
     "description": "",
-    "image": "/path/to/css3-logo.png"
+    "description2": "",
+    "image": "https://imgur.com/C74j0x0.png"
   },
   {
     "id": 4,
-    "name": "JavaScript",
-    "description": "Scripting language for web development and programming",
-    "image": "/path/to/javascript-logo.png"
+    "name": "Python",
+    "description": "Verstile and popular programming language",
+    "description2": "",
+    "image": "https://i.imgur.com/pr8HnPx.png"
   },
   {
     "id": 5,
-    "name": "Node.js",
+    "name": "MongoDB",
     "description": "",
-    "image": "/path/to/node-logo.png"
+    "description2": "",
+    "image": "https://imgur.com/mbEk6Wk.png"
   },
   {
     "id": 6,
     "name": "Express.js",
     "description": "",
-    "image": "/path/to/express-logo.png"
+    "description2": "",
+    "image": "https://imgur.com/57GWLpZ.png"
+  },
+  {
+    "id": 7,
+    "name": "React",
+    "description": "Javascript library for building user interfaces.",
+    "description2": "",
+    "image": "https://imgur.com/RF7EJmA.png"
+  },
+  {
+    "id": 8,
+    "name": "Node.js",
+    "description": "Node.js",
+    "description2": "",
+    "image": "https://imgur.com/mbEk6Wk.png"
   }
 ]

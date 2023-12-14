@@ -1,23 +1,72 @@
 /* PATH: 'styles/Skills.css' */
 
 .skills-container {
-    display: flex;
+  display: grid;
+  grid-template-columns: repeat(4, 200px); /* 4 columns */
+  grid-template-rows: repeat(2, auto); /* Two rows */
+  gap: 3rem;
+  justify-content: center;
+  /* display: flex;
     flex-wrap: wrap;
     gap: 1rem;
-    justify-content: center;
-}
-
-.skill-card {
-    background-color: #333; /* Grey background */
-    color: #fff; /* White text */
-    padding: 1rem;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    text-align: center;
+    justify-content: center; */
 }
 
 .skill-image {
-    width: 100px; /* Set an appropriate width for your images */
-    height: auto;
-    margin-bottom: 0.5rem;
+  width: 100px;
+  height: auto;
+  margin-bottom: 0.5rem;
+}
+
+.skill-card {
+  width: 200px;
+  height: 135px;
+  background-color: #17073558;
+  margin-top: 30px;
+  color: #fff;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  /* width: calc(33.33% - 1rem);
+    background-color: #17073558; 
+    color: #fff; 
+    margin-top: 30px;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center; */
+}
+
+.skill-card:hover {
+  background-color: #555; /* Change color on hover */
+  transform: scale(1.05); /* Slightly expand on hover */
+}
+
+.skill-card.expanded {
+  /* Add styles for the expanded state */
+  background-color: #777;
+  transform: scale(1.1);
+}
+
+.skill-card.expanded h3 {
+  font-size: 1.5rem;
+}
+
+.skill-card.expanded p {
+  font-size: 1rem;
+}
+
+.skillName {
+    padding-top: 0;
+    margin-top: 0;
+}
+
+.skill-card .skillDesc1,
+.skill-card .skillDesc2 {
+  display: none;
+}
+.skill-card:hover .skillDesc1 {
+  display: block;
 }

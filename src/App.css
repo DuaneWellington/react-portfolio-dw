@@ -13,9 +13,12 @@
 }
 .logo:hover {
   filter: drop-shadow(0 0 2em #646cffaa);
+  font-size: xx-large;
 }
 .logo.react:hover {
   filter: drop-shadow(0 0 2em #61dafbaa);
+  font-size: xx-large;
+
 }
 
 @keyframes logo-spin {

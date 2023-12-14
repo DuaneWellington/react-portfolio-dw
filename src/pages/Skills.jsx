@@ -1,44 +1,44 @@
 // PATH: 'src/pages/Skills.jsx'
 
-// import React, {useState, useEffect } from "react";
+import React, {useState, useEffect } from "react";
 // import useScrollToTop from "../../utils/hooks/useScrollToTop";
-// import "../styles/Skills.css"
+import "../styles/Skills.css"
 
-// function Skills() {
-//     // useScrollToTop();
-//    const [skills, setSkills] = useState([]);
+function Skills() {
+    // useScrollToTop();
+   const [skills, setSkills] = useState([]);
 
-//    useEffect(() => {
-//     const fetchSkills = async () => {
-//         try {
-//             const response = await fetch("/skills.json");
-//             const data = await response.json();
-//             setSkills(data);
-//         } catch (error) {
-//             console.error("Error fetching Skills data: ", error);
-//         }
-//     };
-//     fetchSkills();
-//    }, []);
+   useEffect(() => {
+    const fetchSkills = async () => {
+        try {
+            const response = await fetch("/skills.json");
+            const data = await response.json();
+            setSkills(data);
+        } catch (error) {
+            console.error("Error fetching Skills data: ", error);
+        }
+    };
+    fetchSkills();
+   }, []);
 
-//     return (
-//         <div className="skills-container">
-//             {skills.map((skill) => ( 
-//             <SkillCard key={skill.id} {...skill} />
-//             ))}
-//         </div>
-//     );
-// }
+    return (
+        <div className="skills-container">
+            {skills.map((skill) => ( 
+            <SkillCard key={skill.id} {...skill} />
+            ))}
+        </div>
+    );
+}
 
-// const SkillCard = ({ name, description, image }) => (
-//     <div className="skill-card">
-//         <img src={image} alt={name} className="skill-image" />
-//         <h3>{name}</h3>
-//         <p>{description}</p>
-//     </div>
-// );
+const SkillCard = ({ name, description, image, github, live }) => (
+    <div className="skill-card">
+        <img src={image} alt={name} className="skill-image" />
+        <h3 className="skillName">{name}</h3>
+        <p className="skillDesc1">{description}</p>
+    </div>
+);
 
-// export default Skills;
+export default Skills;
 
 
 

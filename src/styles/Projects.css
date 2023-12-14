@@ -1,0 +1,53 @@
+.project-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
+}
+
+.project-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: #17073558;
+    padding: 16px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    margin: 16px;
+}
+
+.project-card:hover {
+    transform: scale(1.05)
+}
+
+.projectTitle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  word-wrap: normal;
+  width: 12rem;
+  border: 2px solid red;
+  padding-top: 10px;
+}
+
+.projectDesc {
+  width: 7rem;
+  word-wrap: normal;
+}
+
+.imgBox {
+  width: 200px;
+  height: auto;
+}
+
+.buttons {
+    display: flex;
+    gap: 8px;
+    margin-top: 16px;
+}
+
+.gitBtn,
+.liveBtn {
+
+}

@@ -16,16 +16,16 @@ function Header() {
       <h3 className="bar">_</h3>
       <nav className="navStyle">
         <Link to="/">
-          <div>HOME</div>
+          <div className="home">HOME</div>
         </Link>
         <Link to="/about">
-          <div>ABOUT</div>
+          <div className="about">ABOUT</div>
         </Link>
         <Link to="/skills">
-          <div>SKILLS</div>
+          <div className="skills">SKILLS</div>
         </Link>
         <Link to="/projects">
-          <div>PROJECTS</div>
+          <div className="projects">PROJECTS</div>
         </Link>
       </nav>
     </header>
@@ -33,3 +33,4 @@ function Header() {
 }
 
 export default Header;
+
